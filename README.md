@@ -1,12 +1,14 @@
-In this Task I have created an ERC20 Upgradable Multi Wallet signature contract. Having a multiple owners will prevent hackers to take advantage of the contract. The contracts are deployed on a BSC testnet through hardhat and the contracts addresses are mentioned.
+In this Task I have created an ERC20 Upgradable Multi Wallet signature contract. Having a multiple owners will prevent hackers to take advantage of the contract. The contracts are deployed on a BSC testnet through hardhat and the contracts addresses are mentioned. In upgradable contract I have added 2 functions that are being upgraded 
+1. Change Name
+2. Change Symbol
 
 
 # To run this project:-
-->npm install
-->npx hardhat run --network testnet scripts/deploy_ERC20M.js
-->npx hardhat verify --network testnet [Address]
-->npx hardhat run --network testnet scripts/deploy_ERC20MUpgradable.js
-->npx hardhat verify --network testnet [Address]
+1. npm install
+2. npx hardhat run --network testnet scripts/deploy_ERC20M.js
+3. npx hardhat verify --network testnet [Address]
+4. npx hardhat run --network testnet scripts/deploy_ERC20MUpgradable.js
+5. npx hardhat verify --network testnet [Address]
 
 
 # Few points should be noted before development of the contract
